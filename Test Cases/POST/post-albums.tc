@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>albums</name>
+   <name>post-albums</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d2c8b57e-961b-4412-abdb-9f0fb659a569</testCaseGuid>
+   <testCaseGuid>cbe63573-65ed-4027-bf97-3f6a33a72dce</testCaseGuid>
 </TestCaseEntity>
