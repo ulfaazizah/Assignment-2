@@ -53,10 +53,7 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
 WS.verifyResponseStatusCode(response, 201)
 
-WS.verifyElementPropertyValue(response, 'title', 'azizah')
-WS.verifyElementPropertyValue(response, 'body', 'katalon')
-WS.verifyElementPropertyValue(response, 'userId', '1')
-WS.verifyElementPropertyValue(response, 'id', '101')
+
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

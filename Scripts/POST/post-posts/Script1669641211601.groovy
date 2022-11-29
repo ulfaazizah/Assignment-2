@@ -29,7 +29,6 @@ import org.openqa.selenium.Keys as Keys
 //WS.verifyElementPropertyValue(response, 'userId', '1')
 //WS.verifyElementPropertyValue(response, 'id', '101')
 GlobalVariable.title = 'ulfa'
-
 GlobalVariable.body = 'testing1'
 
 response = WS.sendRequest(findTestObject('POST/posts'))
@@ -39,7 +38,6 @@ WS.verifyElementPropertyValue(response, 'title', 'ulfa')
 WS.verifyElementPropertyValue(response, 'body', 'testing1')
 
 GlobalVariable.title = 'azizah'
-
 GlobalVariable.body = 'testing2'
 
 response1 = WS.sendRequest(findTestObject('POST/posts'))
